@@ -1,0 +1,22 @@
+.abt {
+    height:91vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display:flex;
+    width:350px;
+    padding:10px;
+    font-weight:500;
+    font-size: 19px;
+}
+
+.field {
+    color: blue;
+    display:flex;
+    width:350px;
+    padding: 10px;
+    font-size: 19px;
+}

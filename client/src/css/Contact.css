@@ -1,0 +1,64 @@
+.cnt-brd {
+    height:91vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inf-box {
+    box-shadow: 0px 4px 5px rgb(223, 219, 219);
+    padding: 20px;
+    width: 65%;
+    margin-top:35px;
+}
+
+#inf {
+    box-shadow: 0px 0px 2px grey;
+    padding: 10px;
+}
+
+#inftxt {
+    width: 200px;
+    border: 1px solid white;
+    outline: none;
+    color: black;
+    font-weight:500;
+    font-family:FontAwesome;
+}
+
+.txtar {
+    width: 80%;
+    height: 30vh;
+    border: 1px solid white;
+    box-shadow: 0px 0px 2px grey;
+    outline: none;
+    color: black;
+    font-weight:500;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    #inftxt {
+        width: 200px;
+        border: 1px solid white;
+        outline: none;
+        color: black;
+        font-weight:500;
+        font-family:FontAwesome;
+    }
+    
+    .txtar {
+        width: 80%;
+        height: 30vh;
+        border: 1px solid white;
+        box-shadow: 0px 0px 5px grey;
+        outline: none;
+        color: black;
+        font-weight:500;
+        padding: 5px;
+    } 
+    
+    .bnt {
+        margin-left: -25px;
+    }
+}

@@ -1,0 +1,36 @@
+.home-bnd {
+    height:91vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nam {
+    position: fixed;
+    z-index:2;
+}
+
+.nam h3 {
+    text-align: center;
+    color: blue;
+}
+
+.bckr {
+    z-index:1;
+    height:91vh;
+    width:100%;
+    background-color: rgb(196, 141, 241);
+    display: flex;
+}
+
+.b1 {
+    border: 1px solid rgb(196, 141, 241);
+    width:50%;
+    background-color: rgb(196, 141, 241);
+}
+
+.b2 {
+    border:1px solid white;
+    width:50%;
+    background-color: white;;
+}
